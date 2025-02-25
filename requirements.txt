@@ -1,0 +1,2 @@
+eth-account==0.13.3
+mnemonic==0.20
