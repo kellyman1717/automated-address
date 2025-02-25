@@ -13,9 +13,7 @@ Ini adalah bot Python yang dapat membuat address EVM dengan otomatis. Bot ini da
 - pip (Python package manager)
 
 ## Installation
-
 1. **Clone atau Download Repository**
-   - Clone repository ini atau download script file ini
      ```bash
      git clone https://github.com/kellyman1717/automated-address.git
      ```
