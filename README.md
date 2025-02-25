@@ -1,13 +1,12 @@
 # EVM Address Generator
 
-This is a Python script to automate the generation of Ethereum Virtual Machine (EVM) addresses. It supports generating random EVM addresses with mnemonic seed phrases and custom "vanity" addresses with user-specified prefixes. The generated addresses, private keys, and seed phrases (where applicable) are saved to text files with sequential numbering.
+Ini adalah bot Python yang dapat membuat address EVM dengan otomatis. Bot ini dapat membuat address EVM random dengan menyertakan **Private Key**, **Seed Phrase** ,dan **Custom Address** khusus dengan prefix yang ditentukan user. Address yang di generate, **Private Key**, dan **Seed Phrase** akan disimpan ke dalam file.
 
 ## Features
-- **Generate Random EVM Addresses**: Create a specified number of EVM addresses with private keys and mnemonic seed phrases, saved to `address_evm.txt`.
-- **View Generated Addresses**: Display the contents of `address_evm.txt` to review previously generated addresses.
-- **Generate Custom Vanity Addresses**: Create an EVM address with a custom prefix (e.g., `0x123`), saved to `custom_addr.txt`.
-- **Multi-core Processing**: Uses Python’s `multiprocessing` to speed up vanity address generation.
-- **Sequential Numbering**: Each address set in the output files is numbered for easy reference.
+- **Generate Random Address EVM**: Membuat address secara acak dengan private key and mnemonic seed phrase, lalu disimpan di dalam `address_evm.txt`.
+- **Menampilkan Hasil Random Address EVM**: Menampilkan isi dari `address_evm.txt`.
+- **Generate Custom Address EVM**: Membuat custom address dengan custom prefix (contohnya, `0x123`), lalu disimpan di `custom_addr.txt`.
+- **Multi-core Processing**: Menggunakan Python `multiprocessing` untuk mempercepat pembuatan custom address.
 
 ## Prerequisites
 - Python 3.6 or higher
@@ -15,10 +14,12 @@ This is a Python script to automate the generation of Ethereum Virtual Machine (
 
 ## Installation
 
-1. **Clone or Download the Repository**
-   - Clone this repository or download the script file (`evm_address_generator.py`).
+1. **Clone atau Download Repository**
+   - Clone repository ini atau download script file ini
+     ```bash
+     git clone https://github.com/kellyman1717/automated-address.git
+     ```
 
 2. **Install Dependencies**
-   - Ensure you have the required libraries installed by running:
      ```bash
      pip install -r requirements.txt
